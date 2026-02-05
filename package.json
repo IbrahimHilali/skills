@@ -1,0 +1,24 @@
+{
+  "name": "claude-skills-lib",
+  "version": "0.1.0",
+  "description": "A personal library of Claude Code skills, installable into any project via npx.",
+  "type": "module",
+  "bin": {
+    "claude-skills-lib": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "skills"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "build": "node scripts/build.js",
+    "sync": "node scripts/sync-upstream.js"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2"
+  },
+  "license": "MIT"
+}

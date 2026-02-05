@@ -1,0 +1,22 @@
+{
+  "title": "React Composition Patterns",
+  "version": "1.0.0",
+  "organization": "Ibrahim Hilali",
+  "date": "January 2026",
+  "note": "This document is mainly for agents and LLMs to follow when maintaining,\ngenerating, or refactoring React codebases using composition. Humans\nmay also find it useful, but guidance here is optimized for automation\nand consistency by AI-assisted workflows.",
+  "abstract": "Composition patterns for building flexible, maintainable React components. Avoid boolean prop proliferation by using compound components, lifting state, and composing internals. These patterns make codebases easier for both humans and AI agents to work with as they scale.",
+  "references": [
+    { "label": "https://react.dev", "url": "https://react.dev" },
+    { "label": "https://react.dev/learn/passing-data-deeply-with-context", "url": "https://react.dev/learn/passing-data-deeply-with-context" },
+    { "label": "https://react.dev/reference/react/use", "url": "https://react.dev/reference/react/use" },
+    { "label": "Radix UI - asChild", "url": "https://www.radix-ui.com/primitives/docs/guides/composition" },
+    { "label": "Kent C. Dodds - How to optimize your context value", "url": "https://kentcdodds.com/blog/how-to-optimize-your-context-value" },
+    { "label": "Kent C. Dodds - The State Reducer Pattern", "url": "https://kentcdodds.com/blog/the-state-reducer-pattern-with-react-hooks" },
+    { "label": "React - Sharing State Between Components", "url": "https://react.dev/learn/sharing-state-between-components" },
+    { "label": "TypeScript - Discriminated Unions", "url": "https://www.typescriptlang.org/docs/handbook/2/narrowing.html#discriminated-unions" },
+    { "label": "React - Manipulating the DOM with Refs", "url": "https://react.dev/learn/manipulating-the-dom-with-refs" },
+    { "label": "React - Reusing Logic with Custom Hooks", "url": "https://react.dev/learn/reusing-logic-with-custom-hooks" },
+    { "label": "Headless UI Components", "url": "https://www.merrickchristensen.com/articles/headless-user-interface-components/" },
+    { "label": "Kent C. Dodds - How to use React Context effectively", "url": "https://kentcdodds.com/blog/how-to-use-react-context-effectively" }
+  ]
+}

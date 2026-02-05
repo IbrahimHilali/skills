@@ -1,0 +1,22 @@
+{
+  "title": "React Best Practices",
+  "version": "1.0.0",
+  "organization": "Ibrahim Hilali",
+  "date": "January 2026",
+  "note": "This document is mainly for agents and LLMs to follow when maintaining,\ngenerating, or refactoring React and Next.js codebases. Humans\nmay also find it useful, but guidance here is optimized for automation\nand consistency by AI-assisted workflows.",
+  "abstract": "Comprehensive performance optimization guide for React and Next.js applications, designed for AI agents and LLMs. Contains 40+ rules across 8 categories, prioritized by impact from critical (eliminating waterfalls, reducing bundle size) to incremental (advanced patterns). Each rule includes detailed explanations, real-world examples comparing incorrect vs. correct implementations, and specific impact metrics to guide automated refactoring and code generation.",
+  "references": [
+    { "label": "https://react.dev", "url": "https://react.dev" },
+    { "label": "https://nextjs.org", "url": "https://nextjs.org" },
+    { "label": "https://github.com/shuding/better-all", "url": "https://github.com/shuding/better-all" },
+    { "label": "https://github.com/isaacs/node-lru-cache", "url": "https://github.com/isaacs/node-lru-cache" },
+    { "label": "MDN - Streams API", "url": "https://developer.mozilla.org/en-US/docs/Web/API/Streams_API" },
+    { "label": "CSS-Tricks - Debouncing and Throttling", "url": "https://css-tricks.com/debouncing-throttling-explained-examples/" },
+    { "label": "TanStack Virtual", "url": "https://tanstack.com/virtual/latest" },
+    { "label": "Next.js - Image Optimization", "url": "https://nextjs.org/docs/app/building-your-application/optimizing/images" },
+    { "label": "DataLoader", "url": "https://github.com/graphql/dataloader" },
+    { "label": "MDN - AbortController", "url": "https://developer.mozilla.org/en-US/docs/Web/API/AbortController" },
+    { "label": "React - Resetting state with a key", "url": "https://react.dev/learn/preserving-and-resetting-state#option-2-resetting-state-with-a-key" },
+    { "label": "Next.js - Font Optimization", "url": "https://nextjs.org/docs/app/building-your-application/optimizing/fonts" }
+  ]
+}
